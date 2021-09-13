@@ -1,101 +1,206 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <title>Урок 2</title>
+    <title>video__page</title>
 </head>
+
 <body>
     <div class="wrapper">
-        <header class="heared"><!--Шапка-->
-            <a href="/" class="logo">
-            <img src="" alt="" class="logo__pic">
-            </a>
-            <address class="contacts">
-                <a href="tel:+788008008080" class="contacts__phone">8 (800) 800-80-80</a>
-                <div class="contacts__workhours">Всегда на связи</div>
-            </address>            
-        </header><!--Шапка-->
-        <div class="page-content"><!--Страница-->
-            <main class="main-content"><!--Основная часть страницы-->
-                <nav class="breadcrumbs"><!--Блок "Хлебные крошки"-->
-                    <ul class="breadcrumbs__list"><!--Пункты хлебных крошек-->
-                        <li class="breadcrumbs__item">
-                            <a href="#" class="breadcrums__link">Главная</a>
-                            <div class="breadcrumbs__separator"></div>
-                        </li>
-                        <li class="breadcrumbs__item">
-                            <a href="#" class="breadcrums__active-link">Подробно</a>
-                            <div class="breadcrumbs__separator"></div>
-                        </li>                        
-                    </ul><!--Пункты хлебных крошек-->
-                </nav><!--Блок "Хлебные крошки"-->
-                <div class="route">
-                    <div class="route__image"><!--Картинка с описанием-->
-                        <img src="" alt="" class="route__image-elem">
-                        <h1 class="route__image-title">Сам текст ‹‹Картинки››</h1>
-                    </div><!--Картинка с описанием-->
-                    <div class="route__header"><!--блок рейтинга-->
-                        <div class="iconned-title">
-                            <img src="" alt="" class="iconned-title__icon">
-                            <div class="iconned-title__icon">Описание с рейтингом</div>
-                        </div>
-                        <ul class="rating">
-                            <li class="rating__item"> <img src="" alt="" class="rating_star"> </li>
-                            <li class="rating__item"> <img src="" alt="" class="rating_star"> </li>
-                            <li class="rating__item"> <img src="" alt="" class="rating_star"> </li>
-                            <li class="rating__item"> <img src="" alt="" class="rating_star"> </li>
-                            <li class="rating__item"> <img src="" alt="" class="rating_star"> </li>
-                        </ul>
-                    </div><!--блок рейтинга-->
-                    <article class="route__description"><!--Блок текста-->
-                        <p class="route__description-paragraph">
-                            <b>Loremb</b> ipsum dolor sit amet consectetur adipisicing elit. Possimus quasi nostrum ea cum hic. Dolor, reiciendis asperiores. Veniam voluptates distinctio optio recusandae aliquid. Ex qui voluptas, vel neque dolore deserunt.
-                        </p>
-                        <h3 class="route__description-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore numquam ducimus quasi. Quas nihil debitis quod quia incidunt! Repellat eius beatae voluptatibus ducimus recusandae fugiat culpa possimus assumenda, non dolorem.
-                        </h3>
-                        <ul class="route__description-title">
-                            <li class="route__description-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione itaque, cupiditate officia culpa aspernatur officiis veniam quia, quis soluta, error eum pariatur? Laborum saepe unde eum sunt dicta laudantium obcaecati.
-                            </li>
-                            <li class="route__description-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione itaque, cupiditate officia culpa aspernatur officiis veniam quia, quis soluta, error eum pariatur? Laborum saepe unde eum sunt dicta laudantium obcaecati.
-                            </li>
-                        </ul>
-                    </article><!--Блок текста-->
-                    <div class="paginator"><!--Блок ссылки по страницам-->
-                        <div class="paginator__display">Страницы 1 из 7</div>
-                        <a href="" class="paginator_prev"><</a>
-                        <ul class="paginator__list">
-                            <li class="paginator__item">1</li>
-                            <li class="paginator__item">2</li>
-                            <li class="paginator__item">3</li>
-                            <li class="paginator__item">4</li>
-                            <li class="paginator__item">5</li>
-                            <li class="paginator__item">6</li>
-                            <li class="paginator__item">7</li>
-                        </ul>
-                        <a href="#" class="paginator__next">></a>                        
-                    </div><!--Блок ссылки по страницам-->
-                </div><!--Страница-->
-            </main>
-            <aside class="sidebar">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="logo">
+                    <img src="" alt="" class="logo__pic">
+                </a>
                 <nav class="menu">
-                    <ul class="menu_list"></ul>
-                    <li class="menu__item">
-                        <img src="" alt="" class="menu__icon">
-                        <div class="menu__title">Главная</div>
-                    </li>
-                    <li class="menu__item">
-                        <img src="" alt="" class="menu__icon">
-                        <div class="menu__title">Подробно</div>
-                    </li>
-                    <li class="menu__item">
-                        <img src="" alt="" class="menu__icon">
-                        <div class="menu__title">О нас</div>
-                    </li>
+                    <ul class="menu__list">
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
                 </nav>
-            </aside>
+                <div class="contacts">
+                    <a href="tel:+88007003030" class="phone">8 (800) 700 30 30</a>
+                    <span class="contacts__hours">График работы</span>
+                </div>
+            </header>
+            <main class="content">
+                <section class="preview">
+                    <h1 class="preview__title">Снимем для вас креативное видео</h1>
+                    <div class="preview__description">Креативный видеопродакшн полного цикла</div>
+                    <button class="preview__btn button">Подробнее</button>
+                </section>
+                <section class="services">
+                    <ul class="services__list">
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="" alt="" class="services__img-pic">
+                            </div>
+                            <h3 class="services_title"></h3>
+                                <div class="services_about">
+                                    <div class="services__about-left"></div>
+                                    <div class="services__about-rigth"></div>
+                                </div>
+                                <div class="services__discription"></div>
+                                <button class="services__btn button"></button>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="" alt="" class="services__img-pic">
+                            </div>
+                            <h3 class="services_title"></h3>
+                                <div class="services_about">
+                                    <div class="services__about-left"></div>
+                                    <div class="services__about-rigth"></div>
+                                </div>
+                                <div class="services__discription"></div>
+                                <button class="services__btn button"></button>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__img">
+                                <img src="" alt="" class="services__img-pic">
+                            </div>
+                            <h3 class="services_title"></h3>
+                                <div class="services_about">
+                                    <div class="services__about-left"></div>
+                                    <div class="services__about-rigth"></div>
+                                </div>
+                                <div class="services__discription"></div>
+                                <button class="services__btn button"></button>
+                        </li>
+                    </ul>
+                </section>
+                <section class="news">
+                    <h2 class="news_title">Новости</h2>
+                    <ul class="news_list">
+                        <li class="news__item">
+                            <div class="news__item-block">
+                                <img src="" alt="" class="news__item-img">
+                            </div>
+                            <data class="news__item-data">
+                                <span class="news__item-month"></span>
+                                <span class="news__item-year"></span>
+                            </data>
+                            <h3 class="news_item-title"></h3>
+                            <div class="news__item-description"></div>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__item-block">
+                                <img src="" alt="" class="news__item-img">
+                            </div>
+                            <data class="news__item-data">
+                                <span class="news__item-month"></span>
+                                <span class="news__item-year"></span>
+                            </data>
+                            <h3 class="news_item-title"></h3>
+                            <div class="news__item-description"></div>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__item-block">
+                                <img src="" alt="" class="news__item-img">
+                            </div>
+                            <data class="news__item-data">
+                                <span class="news__item-month"></span>
+                                <span class="news__item-year"></span>
+                            </data>
+                            <h3 class="news_item-title"></h3>
+                            <div class="news__item-description"></div>
+                        </li>
+                    </ul>
+                    <div class="paginator">
+                        <div class="pagination__title">
+                            Страница
+                            <span class="pagination__current">1</span> из
+                            <span class="pagination__last">7</span>
+                        </div>
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">1</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">2</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">3</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">4</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">5</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">6</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="" class="pagination__link">7</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="about">
+                    <img src="" alt="" class="about__pic">
+                    <div class="about__block">
+                        <h2 class="about__title"></h2>
+                        <div class="about__description"></div>
+                        <button class="about__btn"></button>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <a href="#" class="logo">
+                    <img src="" alt="" class="logo__pic">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Главная</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="" class="menu__link">Отзывы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="socials">
+                    <ui class="socials_list">
+                        <li class="socials_item">
+                            <a href="" class="socials__link">
+                                <img src="" alt="" class="socials__pic">
+                            </a>
+                        </li>
+                        <li class="socials_item">
+                            <a href="" class="socials__link">
+                                <img src="" alt="" class="socials__pic">
+                            </a>
+                        </li>
+                        <li class="socials_item">
+                            <a href="" class="socials__link">
+                                <img src="" alt="" class="socials__pic">
+                            </a>
+                        </li>
+                        <li class="socials_item">
+                            <a href="" class="socials__link">
+                                <img src="" alt="" class="socials__pic">
+                            </a>
+                        </li>
+                    </ui>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-about"></div>
+                    <a href="tel:+788007003030" class="phone">8 (800) 700 30 30</a>
+                </div>
+            </footer>
         </div>
-    </div>    
+    </div>
 </body>
 </html>
