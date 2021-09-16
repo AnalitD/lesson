@@ -1,3 +1,54 @@
 body {
     font-family: 'Open Sans', sans-serif;   
 }
+.header {
+    /* Шапка */
+position: absolute;
+width: 1142px;
+height: 129px;
+left: 389px;
+top: 21px;
+}
+
+.preview {
+    /* Текст */
+
+
+position: absolute;
+width: 776px;
+height: 333px;
+left: 572px;
+top: 229px;
+}
+.services__list {
+    /* Услуги */
+position: absolute;
+width: 1140px;
+height: 476px;
+left: 390px;
+top: 829px;
+}
+.news {
+    /* Новости и акции */
+position: absolute;
+width: 1139px;
+height: 600px;
+left: 389px;
+top: 1451px;
+}
+.about {
+    /* О нас */
+position: absolute;
+width: 1139px;
+height: 552px;
+left: 389px;
+top: 2175px;
+}
+.footer {
+    /* Подвал */
+position: absolute;
+width: 1142px;
+height: 92.64px;
+left: 389px;
+top: 2780px;
+}
