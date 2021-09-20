@@ -1,10 +1,15 @@
 body {
     color: #fff; /*Цвет текста на странице*/
     font-size: 16px;
-    line-height: 1.42;
-    background: #17191C url(./img/body_fon.png) center center no-repeat; /* Фоновый цвет и фоновый рисунок*/
+    line-height: 1.42;    
     font-family: 'Open Sans', sans-serif;
+    background: #17191C; 
+       
+}
+.mail-page-wrapper {
     background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
+    background:  url(./img/fon1.png) center top no-repeat, url(./img/fon2.png) center bottom no-repeat;
+    
 }
 
 a {
