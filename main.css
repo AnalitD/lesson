@@ -2,7 +2,7 @@ body {
     color: #fff; /*Цвет текста на странице*/
     font-size: 16px;
     line-height: 1.42;
-    background: #29292c url(./img/body_fon.png); /* Фоновый цвет и фоновый рисунок*/
+    background: #29292c url(./img/body_fon.png) no-repeat; /* Фоновый цвет и фоновый рисунок*/
     font-family: 'Open Sans', sans-serif;
     background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
 }
