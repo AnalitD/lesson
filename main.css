@@ -319,7 +319,7 @@ p {
     margin-left: -145px;
     margin-top: 95px;
     border-radius: 2px;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 .about__title {
     font-weight: bold;
@@ -392,5 +392,6 @@ p {
 
 .footer-container__content {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
     
 }
