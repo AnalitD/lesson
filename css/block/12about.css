@@ -3,7 +3,7 @@
     content: "";    
     width: 490px;
     height: 505px;
-    background: url(/lesson2/img/operator.png) center center / cover no-repeat;
+    background: url(/../../img/operator.png) center center / cover no-repeat;
 }
 
 .about__desc {    
