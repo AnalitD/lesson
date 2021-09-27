@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #fff; /*Цвет текста на странице*/
+    font-size: 16px;
+    line-height: 1.42;    
+    font-family: 'Open Sans', sans-serif;
+    background: #17191C;
+}
+
+a {
+    color: inherit; /* цвет шрифта от родителя (body) */
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+} /* Сброс стандартных отступов у списка) */
+
+ul li {
+    list-style: none;
+} /* Сброс стиля отображения списка (отключили точки у списка на каждой строчке) */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+} /* сброс внешних отступов у загаловков и установка ширины букв в шрифте */
+
+p {
+    margin-top: 0;
+} /* сброс отступов у параграфов*/
+
+* {
+    box-sizing: border-box; /* фикисрованный размер блока, что бы текст не растягивал блок */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.wrapper {
+    overflow: hidden; /* прячет скрол страницы */
+    min-width: 1260px; /* минимальную ширину страници */
+    min-height: 100%; /* высота страницы от родителя (html->body) что бы страница растягивалась на весь экран устройства */
+    display: flex; /* переключили стиль на флекс */
+    flex-direction: column; /* установили расположение элементов страницы в колоночный вид */
+}
+
+.mail-page-wrapper {
+    background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
+    background:  url(/img/fon1.png) center top no-repeat, url(/img/fon2.png) center bottom no-repeat;
+}
+
+.container {    
+    margin: 0 auto;
+    width: 1140px;    
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 555px;
+    margin-bottom: 134px;
+}
+
+.top-line {    
+    min-height: 416px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 27.5px;
+    background: #000 url(/img/top-line.png) center top no-repeat;
+}
+
+.top-line__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.btn {
+    width: 195px;
+    font-size: 14px;    
+    display: block;
+    border: 1px solid #FF3D00;
+    padding: 18px 50px;
+    background: #fff; 
+    border-radius: 35px; /* закругление углов у блока */    
+    color: #FF3D00;
+    font-weight: bold; /* жирный шрифт */
+    text-transform: uppercase; /* текст стал весь заглавными буквами */
+    text-decoration: none; /* отключили подчеркивание у ссылок */
+}
+
+.btn:hover {
+    background: #FF3D00; /* изменение цвета кнопки при наведении */
+    color: #fff;
+}
+
+.hero__content {
+    display: flex;
+    min-height: 584px;
+}
+
+.services {
+    margin-bottom: 149px;
+}
+
+.about {
+    display: flex;    
+}
+
+
+
+.footer-container {
+    margin-top: auto;
+}
+
+.footer-container__section {
+    height: 135px;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;    
+}
+
+.footer {    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

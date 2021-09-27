@@ -1,0 +1,24 @@
+.preview {
+    width: 68%;
+    margin: auto;
+}
+
+.preview__title {
+    text-transform: uppercase; /* текст стал весь заглавными буквами */
+    font-size: 72px;
+    font-weight: bold; /* текст стал жирным */
+    line-height: 1.3; /* межстрочный интервал */
+    margin-bottom: 18px;
+    text-align: center; /* выравнивание текста в строчном стиле относительно центра */
+}
+
+.preview__description {
+    font-size: 18px;
+    color: #dfb56d;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.preview__btn {
+    margin-left: 290px;    
+}
