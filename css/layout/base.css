@@ -51,7 +51,7 @@ img {
 
 .mail-page-wrapper {
     background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
-    background:  url(/lesson2/img/fon1.png) center top no-repeat, url(/lesson2/img/fon2.png) center bottom no-repeat;
+    background:  url(/../../img/fon1.png) center top no-repeat, url(/../../img/fon2.png) center bottom no-repeat;
 }
 
 .container {    
@@ -72,7 +72,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-bottom: 27.5px;
-    background: #000 url(/lesson2/img/top-line.png) center top no-repeat;
+    background: #000 url(/../../img/top-line.png) center top no-repeat;
 }
 
 .top-line__container {
