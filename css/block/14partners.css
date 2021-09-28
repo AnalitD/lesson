@@ -2,13 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 85px;
+    justify-content: flex-start;
 }
 .partners__item {
     margin-left: 74px;
 }
 
 .partners__item:nth-child(4n + 1) {
-    margin-left: -11px;
+    margin-left: 0px;
 }
 
 .partners__link {
@@ -18,7 +19,7 @@
     height: 117px;
     align-items: center;
     filter: grayscale(100%);
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .partners__link:hover {
