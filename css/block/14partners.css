@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 85px;
-    justify-content: flex-start;
+   
 }
 .partners__item {
-    margin-left: 74px;
+    margin-left: 86px;
+    justify-content: flex-start;
 }
 
 .partners__item:nth-child(4n + 1) {
