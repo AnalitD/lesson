@@ -77,7 +77,7 @@ button {
     display: flex;
     flex-direction: column;
     padding-bottom: 27.5px;
-    background: #000 url(lesson2/img/top-line.png) center top no-repeat;
+    background: #000 url(/lesson2/img/top-line.png) center top no-repeat;
 }
 
 .top-line__container {
