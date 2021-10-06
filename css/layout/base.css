@@ -56,7 +56,7 @@ button {
 
 .mail-page-wrapper {
     background-size: 100%; /*фоновое изображение на весь размер окна браузера*/
-    background:  url(/img/fon1.png) center top no-repeat, url(/img/fon2.png) center bottom no-repeat;
+    background:  url(../../img/fon1.png) center top no-repeat, url(../../img/fon2.png) center bottom no-repeat;
 }
 
 .container {    
