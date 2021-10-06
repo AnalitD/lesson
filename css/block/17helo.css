@@ -1,0 +1,65 @@
+.helo-wrapper {
+    background: url(../../img/helo_bg.png) center top no-repeat;
+}
+
+.helo {
+    margin: 164px auto;
+}
+
+.helo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1128px;
+    height: 643px;
+    background: url(../../img/helo_rec.png) center center no-repeat;
+}
+
+.helo__logo {
+    width: 538px;
+    height: 269px;
+    opacity: 0;
+    animation: rotateIn .8s;
+    animation-fill-mode: forwards;  
+}
+
+@keyframes rotateIn {
+    from {
+        transform: scale(0.1) rotate(30deg) ;
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    70% {
+        transform: rotate(6deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.helo__btn {
+    margin: auto;
+    text-align: center;
+}
+
+.helo__logo--img {
+    padding: 32px 0;
+}
+
+.helo__btn {
+    background: #ff5500;
+    color: #fff;
+}
+
+.helo__btn:hover {
+    background: #FF3D00;
+    color: #fff;
+}
+

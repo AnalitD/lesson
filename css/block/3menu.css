@@ -1,0 +1,14 @@
+.menu__item {
+    display: inline-block; /*строение блоков меню в линию */
+    vertical-align: middle; /* выравнивание блоков относительно серидины */
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none; /* отключили подчеркивание у ссылок */
+}
+
+.menu__link:hover {
+    color: #FF3D00; /* изменение цвета текста при наведении */
+}
