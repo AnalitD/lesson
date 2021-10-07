@@ -57,6 +57,11 @@
     resize: none;
 }
 
+.form__input:focus {
+    box-shadow: 0 0 0 1px #CCCCCC;
+    outline: none;
+}
+
 .form__input:last-child {
     margin-right: 0;
 }
