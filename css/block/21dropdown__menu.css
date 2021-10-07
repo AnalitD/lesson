@@ -3,35 +3,34 @@
     cursor: pointer;
 }
 
-.contacts:hover .dropdown__menu {
+.dropdown {
+    opacity: 0;
+    left: -9000px;
+}
+
+.dropdown:hover {
     left: 0px;
     opacity: .8;
+    transition: opacity .6s;
 }
+
 
 .triangle {
     position: absolute;
     margin-left: 131px;
-    margin-top: -11px;    
+    margin-top: -12px;  
     border: 10px solid transparent;
     width: 0px;
     height: 0px;
     border-bottom-color: #CDD1D2;
-    opacity: 0;
-    transition: opacity .6s;
-    left: -9000px;
 }
 
-.contacts:hover .triangle {
-    left: 0px;
-    opacity: .8;
-}
 
 .dropdown__menu {
     position: absolute;
     background: #CDD1D2;
-    border: 0px solid #CDD1D2;
+    border: none;
     border-radius: 4px;
-    opacity: 0.8;
     width: 160px;
     padding: 13px 16px;
     margin-left: 25px;
@@ -39,9 +38,6 @@
     text-align: center;
     top: 100%;
     margin-top: 8px;
-    opacity: 0;
-    transition: opacity .6s;
-    left: -9000px;
 }
 
 .dropdown__menu::before {
